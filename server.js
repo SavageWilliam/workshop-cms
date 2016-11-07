@@ -20,7 +20,7 @@ function handler(request, response) {
       response.end(file);
     })
   }
-  if (endpoint === '/node') {
+  else if (endpoint === '/node') {
     response.writeHead(200, {"Content-type": "text/html"});
     response.write('Oh my goodness, you\'re in node');
     response.end();
