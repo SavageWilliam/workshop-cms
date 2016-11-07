@@ -1,0 +1,23 @@
+{
+  "name": "cms-workshop",
+  "version": "1.0.0",
+  "description": "building your very own platform to write blog posts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SavageWilliam/workshop-cms.git"
+  },
+  "keywords": [
+    "cms",
+    "jen"
+  ],
+  "author": "Will&Jen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SavageWilliam/workshop-cms/issues"
+  },
+  "homepage": "https://github.com/SavageWilliam/workshop-cms#readme"
+}
