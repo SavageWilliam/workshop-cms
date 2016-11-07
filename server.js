@@ -32,8 +32,8 @@ function handler(request, response) {
     response.writeHead(200, {"Content-type": "text/html"});
     response.write('Run the world\, girls');
     response.end();
-  } else if (endpoint.indexOf('css') !== -1 || endpoint.indexOf('jpg') !== -1) {
-    fs.readFile(path.join(__dirname, 'public', endpoint), function(err, file) {         
+  } else if (endpoint.indexOf('css') !== -1 || endpoint.indexOf('jpg') !== -1) {   //endpoint is our url of request... its relative to where the request is coming from.
+    fs.readFile(path.join(__dirname, 'public', endpoint), function(err, file) {      //__dirname is the DIRECTORY of the 'main' in package.json
       console.log(__dirname, "DIRECTORY NAME");
       if(err) {
         console.log(error);
